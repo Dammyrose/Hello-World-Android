@@ -15,5 +15,7 @@ String is = "is";
 String areYouSerious = "Amazing";
 char exclamation = '!';
 //
-println(damilola, period, student, is, areYouSerious, exclamation);
-println(damilola+period+space+student+space+is+space+areYouSerious+exclamation);
+println(damilola, period, student, is, areYouSerious, exclamation);// cpomma adds spaces
+println(damilola+period+space+student+space+is+space+areYouSerious+exclamation);// plus: no space
+//
+println(damilola+period, student, is, areYouSerious+exclamation);
