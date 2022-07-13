@@ -10,9 +10,10 @@ char exclamation = '!';
 //
 void setup() 
 {
-  //Convas Setup
-  fullScreen();
-  //size();
+  //Canvas Setup
+  //fullScreen();
+  size(300, 200);
+  println(width, height, displayWidth, displayHeight); 
   //
 }//End setup
 //
