@@ -1,7 +1,7 @@
 //Hello World Android
 //
 println("Hello World");
-println("Damilola is Amazing");
+println("Damilola is Amazing!");
 //
 print("I am old-ish");
 println(" ");
@@ -16,4 +16,4 @@ String areYouSerious = "Amazing";
 char exclamation = '!';
 //
 println(damilola, period, student, is, areYouSerious, exclamation);
-println(damilola+period+student+is+areYouSerious+exclamation);
+println(damilola+period+space+student+space+is+space+areYouSerious+exclamation);
