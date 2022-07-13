@@ -12,6 +12,8 @@ char period = '.';
 char space = ' ';
 String student = "Oshin";
 String is = "is";
-String areYouSerious = "Amazing!";
+String areYouSerious = "Amazing";
+char exclamation = '!';
 //
-println(damilola, period, student, is, areYouSerious);
+println(damilola, period, student, is, areYouSerious, exclamation);
+println(damilola+period+student+is+areYouSerious+exclamation);
