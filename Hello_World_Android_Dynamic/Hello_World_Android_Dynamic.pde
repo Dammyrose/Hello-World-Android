@@ -7,17 +7,22 @@ String student = "Oshin";
 String is = "is";
 String areYouSerious = "Amazing";
 char exclamation = '!';
+int appWidth, appHeight;
 //
 void setup() 
 {
   //Canvas Setup
   //fullScreen();
-  size(2000, 1800);
+  size(300, 200); //Display Geometry: Landscape, Potrait, Square 
+  appWidth = width;
+  appHeight = height;
   println(width, height, displayWidth, displayHeight); 
   //CANVAS will only display when it is smaller than the DISPLAY
   if ( width >= displayWidth) exit(); //CANVAS is Broken 
   if ( height >= displayHeight) exit();// CANVAS is Broken 
   if ( width >= displayWidth || height >= displayHeight) println("CANVAS is Broken, bigger than display");//ERROR Catch 
+  //
+  //Display Geometry 
   //
 }//End setup
 //
